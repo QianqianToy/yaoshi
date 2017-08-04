@@ -1,0 +1,47 @@
+body,td{font-family:"ËÎÌו", Arial;font-size:12px;}
+form,p{padding:0px;margin:0px;}
+.red12{color:#FF0000;font-weight:bold;}
+a:link,a:visited{
+	font-size:12px;
+	text-decoration:none;
+	font-weight:normal;
+}
+a:hover,a:active{
+	font-size:12px;
+	text-decoration:underline;
+	font-weight:normal;
+}
+.black12{
+	background-color:#eeeeee;
+	font-weight:bold;
+}
+a.linkred:link,a.linkred:visited{
+	font-size:12px;
+	text-decoration:none;
+	color:#333333;
+}
+a.linkred:hover,a.linkred:active{
+	font-size:12px;
+	text-decoration:underline;
+	color:#FF0000;
+}
+.tgwb{
+	color:#FF0000;
+	font-size:16px;
+	font-weight:bold;
+}
+a.linklv:link,a.linklv:visited{
+	font-size:14px;
+	text-decoration:underline;
+	font-weight:bold;
+	color:#339933;
+}
+a.linklv:hover,a.linklv:active{
+	font-size:14px;
+	text-decoration:underline;
+	font-weight:bold;
+ 	color:#FF0000;
+}
+.show{
+	display:none;
+}	

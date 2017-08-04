@@ -1,0 +1,70 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="yaoshi:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/yaoshi_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="yaoshi/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="yaoshi" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.3.9.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-4.3.9.RELEASE" />
+          <element id="file-copy" path="D:/libs/ssmlib/jstl-1.2.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/druid-1.0.28.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/druid-1.0.31.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/mybatis-3.4.2.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/standard-1.1.2.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/aopalliance-1.0.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/commons-io-1.3.2.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/commons-logging-1.2.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/mybatis-spring-1.3.1.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/jackson-core-2.9.0.pr1.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-tx-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-tx-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/commons-fileupload-1.2.1.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-aop-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-aop-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-jms-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-jms-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-orm-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-orm-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-oxm-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-oxm-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-web-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/mariadb-java-client-1.5.8.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-core-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-core-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-jdbc-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-jdbc-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-test-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-test-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/jackson-databind-2.9.0.pr1.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-beans-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-beans-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-webmvc-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-webmvc-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-aspects-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-aspects-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-context-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-context-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/jackson-annotations-2.9.0.pr1.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-messaging-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-messaging-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-websocket-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-websocket-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-expression-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-expression-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-instrument-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-instrument-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-webmvc-portlet-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-webmvc-portlet-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-context-support-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-context-support-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-instrument-tomcat-4.3.7.RELEASE.jar" />
+          <element id="file-copy" path="D:/libs/ssmlib/spring-instrument-tomcat-4.3.9.RELEASE.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

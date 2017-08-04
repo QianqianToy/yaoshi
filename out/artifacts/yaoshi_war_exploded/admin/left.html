@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="js/jquery.js"></script>
+<script type="text/javascript">
+$(function(){	
+	//导航切换
+	$(".menuson li").click(function(){
+		$(".menuson li.active").removeClass("active")
+		$(this).addClass("active");
+	});
+	
+	$('.title').click(function(){
+		var $ul = $(this).next('ul');
+		$('dd').find('ul').slideUp();
+		if($ul.is(':visible')){
+			$(this).next('ul').slideUp();
+		}else{
+			$(this).next('ul').slideDown();
+		}
+	});
+})	
+</script>
+</head>
+<body style="background:#f0f9fd;overflow-x:hidden;">
+<div class="lefttop"><span></span>操作台</div>
+  <dl class="leftmenu">
+        
+    <dd>
+    <div class="title"><span><img src="images/leftico01.png" /></span>系统设置</div>
+    	<ul class="menuson">
+        	<li><cite></cite><a href="/admin/js/jquery.js" target="rightFrame">账户管理</a><i></i></li>
+        </ul>    
+    </dd>
+   
+<!--一层产品开始-->    
+    <dd>
+    <div class="title"><span><img src="images/leftico03.png" /></span>商品修改</div>
+    	<ul class="menuson">       
+        	<li><cite></cite><a href="../cart.html" target="rightFrame">商品下架</a><i></i></li>
+        	<li><cite></cite><a href="../cart.html" target="rightFrame">商品上架</a><i></i></li>
+        </ul>     
+    </dd>   
+    <dd><div class="title"><span><img src="images/leftico10.png" /></span>用户管理</div>
+    	<ul class="menuson">
+        	<li><cite></cite><a href="danye/?wz=w100&lm=w1002" target="rightFrame">查看全部用户</a><i></i></li>
+    	</ul>  
+    </dd> 
+</dl>
+</body>
+</html>
